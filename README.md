@@ -1,6 +1,6 @@
 # Primary School Management Webapp System
 
-A comprehensive school management system built with Java Servlets, JSP, and MySQL - featuring student registration, grade tracking, teacher management, and academic progress monitoring.
+A comprehensive school management system built with Java Servlets, JSP, and MySQL - featuring student registration, grade tracking, teacher management, and academic progress monitoring. By Bakang Raditedu cse22-006 
 
 ## Key Features
 
@@ -75,71 +75,41 @@ src/
    CREATE DATABASE primary_school_db;
    Run the SQL scripts from the database folder
 
-Configuration
+## Security Features
+* Password hashing using BCrypt
+* Session management
+* SQL injection prevention
+* Input validation and sanitization
+* Role-based access control
 
-Update database credentials in DatabaseUtil.java
-Configure Tomcat server settings
+## Core Functionalities
+
+### For Administrators
+* Manage student registrations
+* Handle teacher assignments
+* Create and manage classes
+* Monitor academic progress
+
+### For Teachers
+* Record and manage grades
+* View class rosters
+* Track student performance
+* Generate academic reports
+
+### For Parents
+* View student grades
+* Track academic progress
+* Access student information
+
+## Contributing
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 
-Build & Deploy
-bashCopymvn clean install
-
-Deploy the generated WAR file to Tomcat
-
-
-
-Usage
-
-Access the Application
-Copyhttp://localhost:8080/school-management/
-
-Default Admin Login
-CopyUsername: admin
-Password: admin123
-
-
-Security Features
-
-Password hashing using BCrypt
-Session management
-SQL injection prevention
-Input validation and sanitization
-Role-based access control
-
-Core Functionalities
-For Administrators
-
-Manage student registrations
-Handle teacher assignments
-Create and manage classes
-Monitor academic progress
-
-For Teachers
-
-Record and manage grades
-View class rosters
-Track student performance
-Generate academic reports
-
-For Parents
-
-View student grades
-Track academic progress
-Access student information
-
-Contributing
-
-Fork the project
-Create your feature branch (git checkout -b feature/AmazingFeature)
-Commit your changes (git commit -m 'Add some AmazingFeature')
-Push to the branch (git push origin feature/AmazingFeature)
-Open a Pull Request
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-Acknowledgments
-
-Built using Bootstrap for responsive UI
-BCrypt for password hashing
-MySQL Community Edition
-
+## Acknowledgments
+* Built using Bootstrap for responsive UI
+* BCrypt for password hashing
+* MySQL Community Edition
